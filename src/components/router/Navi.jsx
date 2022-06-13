@@ -3,7 +3,7 @@ import App from '../../App';
 import Navigation from '../header/Navigation';
 import Empresa from '../page/Empresa';
 import Servicios from '../page/Servicios';
-import Contacto from '../page/Contaco';
+import Contacto from '../page/Contacto';
 import Home from '../page/Home';
 
 const Navi = () => {
