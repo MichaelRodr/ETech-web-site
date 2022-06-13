@@ -5,7 +5,10 @@ const Menu = (props) => {
 	return (
 		<div className='container'>
 			<div className='Logo'>
-				<img src='../' alt='Logo etech mexico' />
+				<img
+					src='http://localhost:3000/src/assets/images/logos/etech.png'
+					alt='Logo etech mexico'
+				/>
 			</div>
 			<nav>
 				<div className='menu'>
@@ -31,7 +34,8 @@ const Menu = (props) => {
 			</nav>
 			<div className='Logo'>
 				<img
-					src='././assets/images/logos/etech-Logo.png'
+					className='icon-language'
+					src='http://localhost:3000/src/assets/icons/mexico.png'
 					alt='Logo etech mexico'
 				/>
 			</div>
