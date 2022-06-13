@@ -1,0 +1,44 @@
+.container {
+	height: 7rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.596);
+	font-size: 1.2rem;
+	font-weight: 700;
+	color: white;
+	gap: 10px;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0px;
+}
+
+.navi-link {
+	color: white;
+	text-decoration: none;
+}
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.menu {
+	margin: 5px;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+}
+.logo {
+	background: linear-gradient(
+		106.87deg,
+		#80c4f5 3.12%,
+		rgba(255, 255, 255, 0.511959) 45%,
+		rgba(231, 244, 253, 0.603218) 55.36%,
+		#80c4f5 93%
+	);
+	background-blend-mode: screen;
+}
