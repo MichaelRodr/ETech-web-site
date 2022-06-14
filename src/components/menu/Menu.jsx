@@ -6,6 +6,7 @@ const Menu = (props) => {
 		<div className='container'>
 			<div className='Logo'>
 				<img
+					className='logo'
 					src='http://localhost:3000/src/assets/images/logos/etech.png'
 					alt='Logo etech mexico'
 				/>
@@ -32,7 +33,7 @@ const Menu = (props) => {
 					</Link>
 				</div>
 			</nav>
-			<div className='Logo'>
+			<div className='btn-language'>
 				<img
 					className='icon-language'
 					src='http://localhost:3000/src/assets/icons/mexico.png'

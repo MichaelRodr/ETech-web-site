@@ -1,4 +1,5 @@
 import SimpleImageSlider from "react-simple-image-slider";
+import "./HeroSlider.css";
 
 const HeroSlider = () => {
 	const images = [
@@ -9,7 +10,7 @@ const HeroSlider = () => {
 	];
 
 	return (
-		<div>
+		<div className='fade'>
 			<SimpleImageSlider
 				width={1400}
 				height={900}
